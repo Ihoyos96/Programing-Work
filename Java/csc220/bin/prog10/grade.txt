@@ -1,0 +1,21 @@
+10/10	Wrote code for 1-6 during lab.
+
+
+0/10	test in Jumble
+
+
+20/20	containsKey working (1/2 credit if it crashes)
+
+
+10/10	get
+
+
+16/20	put
+
+
+7/10	public remove (deal with top level)
+
+
+17/20	recursive remove
+
+total: 80/100

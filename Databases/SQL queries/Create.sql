@@ -1,0 +1,45 @@
+CREATE TABLE Hotel ( 
+	hotelNo INT PRIMARY KEY AUTO_INCREMENT, 
+    hotelName VARCHAR(255),
+    city VARCHAR(255)
+);
+
+CREATE TABLE Room (
+	roomId INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    roomNo INT NOT NULL,
+    hotelNo INT NOT NULL,
+    `type` varchar(255),
+    price INT,
+    CONSTRAINT
+    FOREIGN KEY (hotelNo) 
+    REFERENCES Hotel(hotelNo)
+    ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Booking (
+	bookingId INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	hotelNo INT NOT NULL, 
+    guestNo INT NOT NULL, 
+    dateFrom DATETIME NOT NULL,
+    dateTo DATETIME,
+    roomNo INT NOT NULL,
+    roomId INT NOT NULL,
+    CONSTRAINT
+    FOREIGN KEY (hotelNo)
+    REFERENCES Hotel(hotelNo)
+    ON DELETE CASCADE,
+    CONSTRAINT
+    FOREIGN KEY (guestNo)
+    REFERENCES Guest(guestNo)
+    ON DELETE CASCADE,
+    CONSTRAINT
+    FOREIGN KEY (roomId)
+    REFERENCES Room(roomId)
+    ON DELETE CASCADE
+);
+
+CREATE TABLE Guest (
+    guestNo INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+    guestName VARCHAR(255) NOT NULL,
+    guestAddress VARCHAR(255)
+);

@@ -1,0 +1,24 @@
+75/100
+
+Go to drive.google.com.
+Double-click on workspace.
+Double-click on csc220.
+Double-click on src.
+Double-click on prog01.
+
+On top, you should see (EXACTLY -- CASE SENSITIVE)
+
+My Drive > workspace > csc220 > src > prog01
+
+1. If it is Workspace or something else, rename or move it.
+
+2. If it is CSC220 or something else, create the csc220 project in
+   Eclipse, move your prog01 and prog02 into it, share src with
+   csc220@cs.miami.edu.
+
+Once you have the right directory names, run the Visual Debugger on
+prog01.  Single step and step into methods.
+
+In Google Drive, you should see an images directory in prog01.
+
+

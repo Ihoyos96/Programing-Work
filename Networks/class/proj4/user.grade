@@ -1,0 +1,24 @@
+class: csc424-172
+project: proj4
+student: ___
+date: 
+
+grade: _/5
+
+passes basic test (#):		_/3
+passes extended test (%):	_/2
+lateness:		 	(_)/(3)
+  
+(#)
+- passes basic test
+  the basic test is the same as the proj3 extended test
+
+(%)
+- passes extended test
+  makefile target p4test
+
+commit:
+  # the log for the commit of graded program
+
+comments:
+  # comments on the program and grading

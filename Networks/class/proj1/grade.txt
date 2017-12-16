@@ -1,0 +1,13 @@
+class: csc424-172
+project: proj1
+student: 
+date: 
+
+grade: _/5
+
+code submitted:  _/5
+lateness: (_)/0
+
+commit:
+		
+comments:

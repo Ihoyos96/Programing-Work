@@ -1,0 +1,8 @@
+import pymysql
+pymysql.install_as_MySQLdb()
+import MySQLdb
+db = MySQLdb.connect("35.185.7.33" , "root" , "password")
+
+c=db.cursor()
+c.execute("""SELECT * FROM HOTEL""", (max_price,))
+c.fetchall()

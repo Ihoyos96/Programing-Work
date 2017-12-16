@@ -1,0 +1,31 @@
+LAB
+
+Implemented in lab (but not necessarily working).
+
+5/5 ArrayStack
+
+5/5 LinkedStack
+
+5/5 ListStack
+
+
+HOMEWORK
+
+Using automated tests.  Only 5 points off for a modest bug.
+
+10/10 ArrayStack
+
+10/10 LinkedStack
+
+10/10 ListStack
+
+8/10 Step 4
+
+15/25 Step 5
+
+0/10 Step 6
+
+0/10 Step 7
+
+
+TOTAL: 68/100

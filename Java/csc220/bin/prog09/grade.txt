@@ -1,0 +1,42 @@
+LAB -- check that work is done in lab
+
+5/5 InsertionSort
+
+5/5 HeapSort
+
+5/5 QuickSort
+
+5/5 MergeSort
+
+
+HOMEWORK
+
+Correctness:
+
+output1.txt:
+
+10/10 InsertionSort
+
+10/10 HeapSort
+
+10/10 QuickSort
+
+10/10 MergeSort
+
+
+output2.txt:
+
+15/20 ExternalSort
+
+
+output3.txt:
+
+5/5 InsertionSort
+
+5/5 HeapSort
+
+5/5 QuickSort
+
+5/5 MergeSort
+
+total: 95/100

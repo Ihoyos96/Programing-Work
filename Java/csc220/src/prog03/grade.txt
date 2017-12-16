@@ -1,0 +1,28 @@
+LAB
+
+5/5	Main.time(fib, n)
+
+10/10	Main.averageTime(fib, n, ncalls)
+
+10/10	Main.accurateTime(fib, n),
+
+10/10	LinearFib
+
+2/5	ConstantFib
+
+
+HOMEWORK
+
+7/10	Handles cancel and exit properly and otherwise has correct interface.
+
+10/10	Handles non-integer inputs correctly.
+
+20/20	Does prediction correctly (and reasonably accurately).
+
+10/10	Displays value of fib and and time.
+
+5/10	Gives the user the option to avoid a computation lasting more
+	than one hour.
+
+
+TOTAL 89/100

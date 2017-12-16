@@ -1,0 +1,46 @@
+Hoyos, Ian		ihoy220 
+A:a,B:b,C:c,D:d,null size = 4
+removeEntry(F)
+returns null
+A:a,B:b,C:c,D:d,null size = 4
+CORRECT
+A:a,B:b,C:c,D:d,null size = 4
+removeEntry(B)
+returns b
+A:a,C:c,D:d,D:d,null size = 3
+CORRECT
+A:a,B:b,C:c,D:d,E:e size = 5
+removeEntry(B)
+returns b
+A:a,C:c,D:d,E:e,E:e size = 4
+CORRECT
+
+B:b,D:d,F:f,J:j,null size = 4
+add(A, a)
+A:a,B:b,D:d,F:f,J:j,null,null,null,null,null size = 5
+CORRECT
+B:b,D:d,F:f,J:j,null size = 4
+add(C, c)
+B:b,C:c,D:d,F:f,J:j,null,null,null,null,null size = 5
+CORRECT
+B:b,D:d,F:f,J:j,H:h size = 5
+add(C, c)
+java.lang.ArrayIndexOutOfBoundsException: 5
+ERROR -5
+
+B:b,D:d,F:f,H:h,null size = 4
+find(D)
+returns true 1
+CORRECT
+B:b,D:d,F:f,H:h,J:j size = 5
+find(D)
+returns true 1
+CORRECT
+B:b,D:d,F:f,H:h,null size = 4
+find(J)
+returns false 4
+CORRECT
+B:b,D:d,F:f,H:h,J:j size = 5
+find(A)
+returns false 0
+CORRECT

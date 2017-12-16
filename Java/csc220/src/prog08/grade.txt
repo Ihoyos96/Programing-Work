@@ -1,0 +1,44 @@
+LAB
+
+5/5	Implement Tree.find
+
+5/5	Implement Tree.add
+
+5/5	Implement Tree.getLeftmost
+
+5/5	Implement Tree.removeLeftMost
+
+5/5	Implement Tree.removeRoot
+
+5/5	Implement Heap.poll
+
+5/5	Implement Heap.peek
+
+5/5	Implement Heap.iterator
+
+
+HOMEWORK
+
+10/10	Test Tree
+
+10/10	Test Heap but not remove
+
+7/10	Test Heap
+
+If WordGame gets from snow to rain in seven steps and does it using 74
+polls, you don't have to check the following.
+
+10/10	WordGame.NodeComparator.value
+
+5/5	WordGame.NodeComparator.compare
+
+5/5	WordGame.distanceToStart
+
+10/10	WordGame.solve
+
+
+Total: 97/100
+
+
+
+

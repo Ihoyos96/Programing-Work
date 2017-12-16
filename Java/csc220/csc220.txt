@@ -1,0 +1,10 @@
+Ian
+123
+Irina
+irina@cs.miami.edu
+Lance
+l.levine4@umiami.edu
+Parul
+p.maheshwari@umiami.edu
+Victor
+vjm@cs.miami.edu

@@ -1,0 +1,19 @@
+30/30	steps 1-5 done during lab
+
+10/10	indexPage
+
+10/10	find all web pages using queue
+
+10/10	increment reference
+
+10/10	use a set to eliminate double voting
+
+10/10	index words
+
+10/10	add page index to end of word's list
+
+10/10	eliminate duplications in word's list
+
+
+TOTAL:	100/100
+

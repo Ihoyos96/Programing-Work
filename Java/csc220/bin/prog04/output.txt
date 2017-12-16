@@ -1,0 +1,15 @@
+Hoyos, Ian		ihoy220 
+Test DLLBasedPD.removeEntry
+java.lang.NullPointerException
+ERROR: remove eve from [ ] failed.
+java.lang.NullPointerException
+ERROR: remove eve from [ eve ] failed.
+
+Test SortedDLLPD.find
+
+Test SortedDLLPD.add
+java.lang.NullPointerException
+ERROR: add eve to [ ann eve ] failed.
+FO: prog04.DLLEntry@6d06d69c
+ERROR: add eve to [ zoe ] yields [ eve eve eve eve eve eve eve eve eve ... ]
+

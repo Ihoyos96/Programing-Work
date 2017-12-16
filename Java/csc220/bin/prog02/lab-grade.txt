@@ -1,0 +1,76 @@
+Hoyos, Ian		ihoy220 
+Cases 0-3 should each have exactly one call to pd.
+-3 if it has an extra call.
+-10 if it has no call.
+
+		pd.loadData(fn);
+			case -1:
+			case 0:
+				pd.addOrChangeEntry(name, number);
+				pd.save();
+			case 1:
+				number = pd.lookupEntry(name);
+					if (pd.lookupEntry(name) == null){
+					if (pd.lookupEntry(name) != null){
+						ui.sendMessage("Name: "+ name + "\n" + "Number: " + pd.lookupEntry(name));
+			case 2:
+					if (pd.removeEntry(name) == null){
+						pd.removeEntry(name);
+			case 3:
+				pd.save();
+			case 4:
+				pd.save();
+
+	case 1:
+	Enter name
+	? Fred
+	That name is not in the directory
+	case 1:
+	Enter name
+	? Victor
+	Name: Victor
+Number: vjm@cs.miami.edu
+	case 2:
+	Enter name
+	? Victor
+	Contact has been removed.
+	case 2:
+	Enter name
+	? Victor
+	Entry not found
+	case 0:
+	Enter name
+	? Victor
+	Enter number
+	? 
+	Victor has been added to the directory with the number 
+	case 0:
+	Enter name
+	? Fred
+	Enter number
+	? fred
+	Fred has been added to the directory with the number fred
+	case 0:
+	Enter name
+	? Fred
+	Enter number
+	? 777
+	Fred has been added to the directory with the number 777
+	case 0:
+	Enter name
+	? Victor
+	Enter number
+	? null
+	case 1:
+	Enter name
+	? null
+Exception in thread "main" java.lang.NullPointerException
+	at prog02.SortedPD.find(SortedPD.java:52)
+	at prog02.ArrayBasedPD.lookupEntry(ArrayBasedPD.java:87)
+	at prog02.Main.processCommands(Main.java:61)
+	at prog02.Main.main(Main.java:114)
+-3 points if your program does not have the old and new number for Fred.
+-10 points if your program crashes when the user clicks CANCEL.
+
+SCORE:  18/40
+

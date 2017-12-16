@@ -1,0 +1,32 @@
+QUIZ 4
+
+Name: **NAME**
+Grade: 0/7
+
+Date out: Wed, 8 Feb 2017
+Date due: Fri, 10 Feb 2017
+
+Refer to the website https://ant.isi.edu/address/browse/index.html 
+for this project.
+
+1) Use dig to find a "typical" MIT IP address, digging for mx.mit.edu.
+   Report that address.
+
+2) According to classful addressing, is this a class A, B or C?
+
+3) Locate on the ISI map this address, and report by the general 
+   pattern of colors the size of the block and its usage.
+
+4) Zooming in find another MIT responding IP and ping it successfully.
+   Send the ping transcript of the command line.
+
+5) Use dig to find www.cs.miami.edu and report the address.
+
+6) According to classful addressing, is this a class A, B or C?
+
+7) Locate on the ISI map this address. By the shape of coloration
+   of responding IP's within the class and its neighbors, is the block
+   as used co-extensive with the classless class? About how many 
+   addresses respond affirmative? About how many addresses respond
+   definitively non-affirmative?
+

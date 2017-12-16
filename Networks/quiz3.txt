@@ -1,0 +1,19 @@
+QUIZ 3
+
+Name: Ian Hoyos
+Grade: 1/1
+
+Date out: Wed, 1 Feb 2017
+Date due: Fri, 3 Feb 2017
+
+Follow the instructions on the class blog to setup transparent logins
+to two lab machines.
+
+Copy your public key to this directory, add and commit.
+
+
+
+****** this should be in a file, not inline *******
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7wuIIob6IVITkvdHaFOdfOSR3bIF8LSBDqKc3rqcHtTio4pZhZAcEbOG10vUgzpzM4+Uzx1ZB5CUwK/UL+1ajmlCisb652yurz1OMJvBeKe8D9MmA9LP/X8mAZDRFhmdBPzsvMb/k7oSc66USwWPXVORQYFHKpShjHEprnMrXhMPkm9ho1P2pv+SPuu0FUL5p9LYCan2wvoldmgEHSeg/kwISQBvx5e6NT3WuRRlU9n5mPF/pw+DPpMOpU+YQxrD362dKxfBje+pbli7ncY5TowHpBm713D72Cza97R7sRhoI2Olvp8swsONteSzxGlRmQRcMp7YrrsvRfbK/0xIT
+
