@@ -1,0 +1,80 @@
+//============================================================================
+// Name        : Intro.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+#include "functions.h"
+#include <iostream>
+#include <stdio.h>
+#include <array>
+#include <random>
+
+using namespace std;
+
+int main() {
+
+	// printing and syntax
+	/*
+	string name;
+	cout << "Hello you filthy bastard," << endl ;
+	cout << "Go ahead, give me your name." << endl;
+	cin >> name;
+	cout << name << "!? What kind of crummy name is that!\n";
+
+	cout << "-- Using imported functions --\n" << endl;
+	cout << add(1,5) << endl;
+	*/
+
+	//Size of data types -- useful to know
+	int x;
+		cout << "data type (int)s are " << sizeof(x) << " bytes" <<  endl;
+	char c;
+		cout << "data type (char)s are " << sizeof(c) << " bytes" <<  endl;
+	double d;
+		cout << "data type (double)s are " << sizeof(d) << " bytes" <<  endl;
+	long l;
+		cout << "data type (long)s are " << sizeof(l) << " bytes" <<  endl;
+
+	//Imported print function//
+	string message = "\nHello World!!!!";
+	print(message);
+
+	//Imported parse_match function//
+
+
+	//One method of retrieving array size//
+	/*
+	int numArray[] = {1,2,3,4,5,6,7,8,9};
+	cout << "Length: " << sizeof(numArray)/sizeof(numArray[0]) << endl;
+	*/
+
+	//using std::array to declare and initialize fixed arrays//
+	/*
+	array<int, 5> myarray = { 9, 7, 5, 3, 1 };
+	cout << "length: " << myarray.size() << endl;
+	*/
+
+	std::array<int, 10> numArray2; //array declared with std::array library
+
+	cout << endl;
+	int x = random();
+	cout << "random: " << x << endl;
+	cout << endl;
+
+
+	int numArray[10] = {10,17,2,32,14,15,62,37,36,9};
+	int temp[10];
+	int length = sizeof(numArray)/sizeof(numArray[0]);
+	int match = 62;
+
+	parse_match(numArray, length, match);
+
+	cout << endl;
+	cout << (0 + 3)/2 << endl;
+	cout << endl;
+
+	mergeSort(numArray, temp, 10);
+}
+
