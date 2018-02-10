@@ -1,0 +1,18 @@
+static int minNum(int A, int K, int P) {
+        
+        int days = 1;
+        int Asolved = P + A; //Hello
+        
+        if (A >= K)
+            return 0;	//World
+        
+        while(K <= Asolved){//How are you
+            K = K + K;
+            Asolved = Asolved + A;
+            days++;
+        }
+        /* yoyo
+         	Dope
+         */
+        return days;
+    }
