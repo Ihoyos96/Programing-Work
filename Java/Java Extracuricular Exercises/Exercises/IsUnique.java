@@ -1,28 +1,30 @@
 package Exercises;
 
+import java.util.HashSet;
+
 public class IsUnique {
 
 	public static boolean isUnique(String s) {
-		int size = 25;
-		Character[] letters = new Character[size];
+		HashSet<Character> set = new HashSet<Character>();
+		char[] word = new char[s.length()];
+		word = s.toCharArray();
 		
-		for(int i = 0;i < s.length(); i++) {
-			Character letter = s.charAt(i);
-			int index = letter.hashCode() % size;
-			if (letters[index] == letter) {
-				return false;
+		for( char c : word) {
+			if (!(set.contains(c))) {
+				set.add(c);
+				continue;
 			}
-			else {
-				letters[index] = letter;
-			}
+			return false;
 		}
+		
 		return true;
+		
 	}
 	
   
 	public static void main(String[] args) {
 
-		String s = "acdga";
+		String s = "acdag";
 		System.out.print(isUnique(s));
 	}
 }

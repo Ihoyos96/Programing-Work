@@ -1,8 +1,6 @@
 package Exercises;
 import java.util.*;
 
-import MoreExercises.TrieNode;
-
 public class ContactListWithTrie {
 
     public static void main(String[] args) {

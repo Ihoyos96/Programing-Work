@@ -48,6 +48,10 @@ class TrieNode {
 		
 	}
 	
+	// Helper Function: Exploratory mapping using DFS.
+	// StringBuilder: Build as you descend the subtrees, de-construct as you return.
+	// 		          Purpose: Recycle StringBuilder.
+	
 	public ArrayList<String> traverse(TrieNode t, StringBuilder sb, ArrayList<String> list) {
 		if (t.isComplete)
 			list.add(sb.toString());
@@ -63,6 +67,8 @@ class TrieNode {
 		return list;
 	}
 	
+	// Find method uses a partial string to identify all possible
+	// Matches that contain the partial as prefix.
 	public ArrayList<String> find(String s) {
 		TrieNode node = children.get(s.charAt(0));
 		if (node == null)
